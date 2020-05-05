@@ -10,13 +10,14 @@ body {
     color: #4d1170; /* David Dinh: h2 tags need some love too <3 */
     text-align: center;
   }
+  /* David: The p, table, li tags are to be center aligned. */
   p {
     text-align: center;
   }
   table {
     text-align: center;
   }
-  li {
+  div {
     text-align: center;
   }
   p.one {
