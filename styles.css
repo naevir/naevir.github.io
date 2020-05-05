@@ -1,6 +1,5 @@
 body {
     background-color: rgb(98, 206, 179);
-    font-family: Helvetica, Arial, Helvetica, sans-serif;
   }
   h1 {
     color:#072177;  /* David Dinh: changed color for h1 tag */
@@ -8,6 +7,10 @@ body {
   }
   h2 {
     color: #4d1170; /* David Dinh: h2 tags need some love too <3 */
+    text-align: center;
+  }
+  h3 {
+    color: #4d1170; /* David Dinh: h3 tags need some love too <3 */
     text-align: center;
   }
   /* David: The p, table, li tags are to be center aligned. */
