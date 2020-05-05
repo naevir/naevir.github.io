@@ -1,7 +1,15 @@
 body {
-    background-color: powderblue;
+    background-color: rgb(161, 49, 49);
   }
   h1 {
-    color:#ff9900;
+    color:#072177;  /* David Dinh: changed color for h1 tag */
+    text-align: center;
+  }
+  h2 {
+    color: #4d1170; /* David Dinh: h2 tags need some love too <3 */
+    text-align: center;
+  }
+  p {
+    text-align: center;
   }
   
