@@ -35,8 +35,8 @@ body {
     padding-left: 20px;
   }
   .pill {
-    /* David: adjusted left and right margins for Philip's page */
-    margin-top: 20px;
+    /* David: adjusted left and right margins for Phillip's page */
+    margin-top: 20px; /* Phillip added Margin-top and bottom to create spacing for each members sections */
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -47,7 +47,7 @@ body {
     width: 55%;
   }
   .center {
-    margin-left: auto;
+    margin-left: auto; /* Phillip added a class for his table to center it when it wasn't centered along with his page originally */
     margin-right: auto;
   }
   .JasonDivs { /* Jason Div Section, this div section of css code is what brings the box to life*/ 
@@ -89,7 +89,7 @@ body {
     color: rgb(38, 219, 219);
   }
   .Hiroki {  /* Hiroki div section*/
-    margin-top: 20px;
+    margin-top: 20px; 
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -126,7 +126,7 @@ body {
     clear: both;
     display: table;
   }
-  .imgedit {
+  .imgedit {/* Phillip manipulated the images to be interactive when hovered over */
   /* David: made sure images are spaced out evenly in one row in one box */
     opacity: 0.5;
     filter: alpha(opacity=50);
