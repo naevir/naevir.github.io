@@ -57,10 +57,19 @@ body {
     color: hotpink;
   }
   div.pill {
-    border: 2px solid #ff7300;
-    border-radius: 5px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 3px solid #ff7300;
+    background-color: lightslategray;
+    border-radius: 15px;
+    width: 55%;
   }
   div.JasonDivs { /* Jason Div Section */ 
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -70,6 +79,8 @@ body {
     width: 55%;
   }
   div.Hiroki {  /* Hiroki div section*/
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -87,9 +98,11 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 200px;
+    /* Hiroki having difficulty with centering a table, tried doing padding-left: 200px; but isn't responsive for different desktops */
   }
   div.david { /* HIroki added David div section*/
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
