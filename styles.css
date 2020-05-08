@@ -5,7 +5,7 @@ embed style="": yes
 
 a tags:
 OR
-class="":
+class="": 
 .class:
 OR
 id="":
@@ -49,6 +49,10 @@ body {
     font-size: larger;
     margin: auto;
   }
-  #Topic {
+  #Topic { /* comment commment*/
     color: hotpink;
+  }
+  .pill {
+    border: 2px solid #ff7300;
+    border-radius: 5px; 
   }
