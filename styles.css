@@ -80,6 +80,11 @@ div.Hiroki {  /* Hiroki div section*/
   border-radius: 15px;
   width: 55%;
 }
+.tablehi {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
 .tableh { 
   display: block;
   margin-left: auto;
