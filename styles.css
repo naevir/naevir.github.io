@@ -63,7 +63,8 @@ body {
     width: 55%;
   }
   .center {
-    margin: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   div.JasonDivs { /* Jason Div Section */ 
     margin-top: 20px;
