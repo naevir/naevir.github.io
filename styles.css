@@ -116,6 +116,14 @@ body {
     display: table;
   }
   .imgedit {
+    margin-left: 3em;
+    margin-right: 3em;
+    float: left;
+    content: "";
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  .imgedit:hover {
     opacity: 0.5;
     filter: alpha(opacity=50);
   }
