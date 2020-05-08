@@ -48,12 +48,12 @@ body {
     padding-right: 20px;
     padding-left: 20px;
   }
-  div.categories { /* .categories comes from class="categories", */
+  div.categories { /* Jason .categories comes from class="categories", */
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     margin: auto;
   }
-  #Topic { /* comment commment*/
+  #Topic { /* Jason added #id */
     color: hotpink;
   }
   div.pill {
