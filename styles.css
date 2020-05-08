@@ -63,9 +63,12 @@ body {
     margin-right: auto;
     padding: 20px;
     border: 3px solid #ff7300;
-    background-color:rgba(241, 196, 48, 0.432);
+    background-color:rgba(115, 239, 255, 0.733);
     border-radius: 15px;
     width: 55%;
+  }
+  .center {
+    margin: center;
   }
   div.JasonDivs { /* Jason Div Section */ 
     margin-top: 20px;
