@@ -127,6 +127,14 @@ body {
     /* David: stylized font for more personality in words */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
+  .davimg { /* David: made new table since first one didn't work for grids*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 3px solid rgb(29, 21, 100);
+  }
   .imgedit {/* Phillip manipulated the images to be interactive when hovered over */
   /* David: made sure images are spaced out evenly in one row in one box */
     opacity: 0.5;
