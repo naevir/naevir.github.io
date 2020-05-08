@@ -125,7 +125,7 @@ body {
     border-radius: 15px;
     width: 55%;
     /* David: stylized font for more personality in words */
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   .davimg::after {
     clear: both;
