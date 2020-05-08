@@ -21,15 +21,24 @@
     border-width: 5px 5px; /* David: 5px top and bottom, 5px on the sides to */
     background-color: white;
   } 
+  h1 {
+    color:#072177;  /* David: changed color for h1 tag */
+  }
+  h2 {
+    color: #4d1170; /* David: h2 tags need some love too <3 */
+  }
+  h3 {
+    color: #b967e9; /* David: h3 tags need some love too <3 */
+  }
 </style>
 </head>
 <body>
 
 <!-- Jason Estrada Work -->
-<div class="JasonDivs">
-<h1 style="background-color: aqua; font-size: large;">Jason Estrada Blog</h1> 
-<h1><strong>Hola!</strong> Welcome to My <em>Blog/Music</em> Posts!</h1> <!-- first line of code in HTML -->
-<span>
+<div class="JasonDivs"> <!-- Connection to CSS .JasonDivs (Jason Estrada)-->
+<h1 style="background-color: aqua; font-size: x-large;">Jason Estrada Blog</h1> 
+<h1 class="whitetext"><strong>Hola!</strong> Welcome to My <em>Blog/Music</em> Posts!</h1> <!-- first line of code in HTML -->
+<span class="whitetext">
     <p>This blog will be used for learning basics for the <em>Spanish/Español</em> language, what I do while in <em>Quarantine</em> and what I like to do for fun!</p> <!-- Second line of code in HTML -->
     <p>A third of the blog will be the basics for learning the Spanish/Español language, what I do at my house during that day and the other half will be dedicated for beginners that want to learn chords and the notes that is played for guitar and other instruments.</p> <!-- Third line of code in HTML -->
 </span>
@@ -38,7 +47,7 @@
         <table>
             <tr>
                 <td class="categories" id="Topic">Subject</td> <!-- Section with the table, first three lines -->
-                <td class="categories">Description</td>
+                <td class="categories">Description</td> <!--49-51 are connected with CSS .categories (Jason Estrada)-->
                 <td class="categories">Results</td>
             </tr>
             <tr>
@@ -52,9 +61,32 @@
                 <td>Through a "Masterclass" from one of the Adobe XD experts I was able to create an animation that can be displayed in live streams that promoto the social media</td>
             </tr>
         </table>
-    
-        <h2> All 6 String Note for Correct Tune Guitar</h2> <!-- Second half of the blog, bold text of the title -->
-        <ul>
+
+        <table class="center"> <!-- Jason Estrada Second table with basic Spanish words -->
+            <h2 class="headlines">Basic Spanish/Español Words</h2>
+            <tr>
+                <td class="categories">Hello</td> <!-- English -->
+                <td class="categories">Hola</td> <!-- Spanish -->
+                </tr>
+                <tr>
+                <td class="categories">How are you?</td> <!-- English -->
+                <td class="categories">Cómo estás?</td> <!-- Spanish -->
+            </tr>
+            <tr>
+                <td class="categories">Family</td> <!-- English -->
+                <td class="categories">Familia</td> <!-- Spanish -->
+            </tr>
+            <tr>
+                <td class="categories">I like</td> <!-- English -->
+                <td class="categories">Me gusta</td> <!-- Spanish -->
+            </tr>
+            <tr>
+                <td class="categories">Pineapple</td> <!-- English -->
+                <td class="categories">Piña</td> <!-- Spanish -->
+            </tr>
+        </table>
+        <h2 class="headlines"> All 6 String Note for Correct Tune Guitar</h2> <!-- Second half of the blog, bold text of the title -->
+        <ul class="whitetext">
             <li>E(Low Top String/Note)</li> <!-- List of the string notes -->
             <li>A</li>
             <li>D</li>
@@ -64,7 +96,7 @@
             <img src="/images/guitar-open-string.jpg" alt="Guitar String Notes 1-6" width="500" height="500"> <!-- Image illustrating the list that is written above -->
         </ul>
             <ol>
-                <h4> <strong>Chord C on Guitar</strong></h4> <!-- Text that focus on the image below -->
+                <h3 class="whitetext"> <strong>Chord C on Guitar</strong></h4> <!-- Text that focus on the image below -->
                 <ol> <img src="/images/c-chord.jpg" alt="Guitar Chord C" width="500" height="500"> </ol> <!-- Image that is connected with the text above -->
             </ol>
     </div>

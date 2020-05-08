@@ -1,20 +1,20 @@
 /*
 link rel: yes
-embed <style>:
+embed <style>: yes
 embed style="": yes
 
 a tags:
 OR
-class="": 
-.class:
+class="": done
+.class: done
 OR
-id="":
-#id:
+id="": done
+#id: done
 
 font size, weight, and treatment: yes
 position and alignment of elements: yes (not all)
-manipulation of images:
-and hover and visibility changes links or other elements:
+manipulation of images: done
+and hover and visibility changes links or other elements: done
 */
 body {
     background-image: url("seattle.jpg"); /* Phillip created a background image and made it responsive */
@@ -50,7 +50,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  .JasonDivs { /* Jason Div Section */ 
+  .JasonDivs { /* Jason Div Section, this div section of css code is what brings the box to life*/ 
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: auto;
@@ -60,6 +60,33 @@ body {
     background-color: lightslategray;
     border-radius: 15px;
     width: 55%;
+  }
+  .categories { /* Jason Estrada .categories comes from class="categories", font is changed to Arial */
+    font-family: Arial;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+    color: royalblue;
+    text-align: center;
+  }
+  .Subject { /* Jason Estrada .subject is connected with class="Subject", font is changed to Arial, color changed */
+    font-family: Arial;
+    margin: auto;
+    color: rgb(185, 40, 185);
+  }
+  .whitetext { /* Jason Estrada This CSS is connected with the white text in Jason Estrada box */
+    color: white;
+    font-family: Arial;
+    font-style: normal;
+    font-size: large;
+  }
+  .headlines { /* Jason Estrada CSS class="headlines" connected with the lines that in between the tables and first image */ 
+    color: rgb(0, 225, 255);
+    font-size: x-large;
+    font-family: Arial;
+  }
+  #Topic { /* Jason Estrada word "Subject" color*/
+    color: rgb(38, 219, 219);
   }
   .Hiroki {  /* Hiroki div section*/
     margin-top: 20px;
@@ -83,7 +110,7 @@ body {
     margin-right: auto;
     /* Hiroki having difficulty with centering a table, tried doing padding-left: 200px; but isn't responsive for different desktops */
   }
-  .david { /* HIroki added David div section*/
+  .david { /* Hiroki added David div section*/
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: auto;
