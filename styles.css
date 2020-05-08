@@ -21,23 +21,28 @@ body {
     text-align: center; /* Phillip moved text-align CSS code to the body to apply for all text */
   }
   h1 {
-    color:#072177;  /* David Dinh: changed color for h1 tag */
+    color:#072177;  /* David: changed color for h1 tag */
   }
   h2 {
-    color: #4d1170; /* David Dinh: h2 tags need some love too <3 */
+    color: #4d1170; /* David: h2 tags need some love too <3 */
   }
   h3 {
-    color: #4d1170; /* David Dinh: h3 tags need some love too <3 */
+    color: #b967e9; /* David: h3 tags need some love too <3 */
   }
   table {
     border-style: solid;
-    border-width: 5px 5px; /* 5px top and bottom, 5px on the sides */
+    border-width: 5px 5px; /* David: 5px top and bottom, 5px on the sides to */
     background-color: white;
   }
   p.one {
     border-style: solid;
-    border-width: 5px 5px; /* 5px top and bottom, 5px on the sides */
-    color: #143053; /* David Dinh: dark indigo blue */
+    border-width: 5px 5px; /* David: 5px top and bottom, 5px on the sides */
+    color: #143053; /* David: dark indigo blue to make specific paragraph unique */
+    /* David: stylized frame */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
   .categories { /* .categories comes from class="categories", */
     font-family: Arial, Helvetica, sans-serif;
