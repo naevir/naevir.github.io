@@ -45,6 +45,8 @@ body {
     background-color:rgba(115, 239, 255, 0.733);
     border-radius: 15px;
     width: 55%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
   }
   .center {
     margin-left: auto; /* Phillip added a class for his table to center it when it wasn't centered along with his page originally */
