@@ -5,7 +5,7 @@ embed style="": yes
 
 a tags:
 OR
-class="":
+class="": 
 .class:
 OR
 id="":
@@ -46,4 +46,8 @@ body {
   }
   #Topic {
     color: hotpink;
+  }
+  .pill {
+    border: 2px solid #ff7300;
+    border-radius: 5px; 
   }
