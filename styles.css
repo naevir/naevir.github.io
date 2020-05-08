@@ -51,6 +51,7 @@ body {
   .center {
     margin-left: auto; /* Phillip added a class for his table to center it when it wasn't centered along with his page originally */
     margin-right: auto;
+    color: black;
   }
   .JasonDivs { /* Jason Div Section, this div section of css code is what brings the box to life*/ 
     margin-top: 20px;
