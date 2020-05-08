@@ -55,4 +55,9 @@ body {
     border-width: 5px 5px; /* 5px top and bottom, 5px on the sides */
     color: #143053; /* David Dinh: dark indigo blue */
   }
-  
+  .categories {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin: auto;
+    width: 60%;
+  }
