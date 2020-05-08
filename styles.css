@@ -127,10 +127,6 @@ body {
     /* David: stylized font for more personality in words */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
-  .davimg::after {
-    clear: both;
-    display: table;
-  }
   .imgedit {/* Phillip manipulated the images to be interactive when hovered over */
   /* David: made sure images are spaced out evenly in one row in one box */
     opacity: 0.5;
