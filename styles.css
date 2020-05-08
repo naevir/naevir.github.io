@@ -124,6 +124,8 @@ body {
     background-color: rgba(196, 146, 230, 0.774);
     border-radius: 15px;
     width: 55%;
+    /* David: stylized font for more personality in words */
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   .davimg::after {
     clear: both;
