@@ -33,11 +33,6 @@ body {
   h3 {
     color: #b967e9; /* David: h3 tags need some love too <3 */
   }
-  table {
-    border-style: solid;
-    border-width: 5px 5px; /* David: 5px top and bottom, 5px on the sides to */
-    background-color: white;
-  }
   p.one {
     border-style: solid;
     border-width: 5px 5px; /* David: 5px top and bottom, 5px on the sides */
