@@ -121,7 +121,7 @@ body {
     padding: 20px;
     border: 3px solid black;
     /* David: added background color to webpage and added translucency to make text more visible */
-    background-color: rgba(196, 146, 230, 0.774);
+    background-color: rgba(196, 146, 230);
     border-radius: 15px;
     width: 55%;
     /* David: stylized font for more personality in words */
