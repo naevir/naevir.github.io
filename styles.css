@@ -65,6 +65,7 @@ body {
     width: 55%;
   }
   .categories { /* Jason Estrada .categories comes from class="categories", font is changed to Arial */
+    /* David: also took class and applied it to some of my HTML */
     font-family: Arial;
     font-size: larger;
     margin-left: auto;
@@ -103,6 +104,7 @@ body {
     width: 55%;
   }
   .tablehi {
+    /* Hiroki: stylized each of my tables */
     display: block;
     margin-left: auto;
     margin-right: auto; 
