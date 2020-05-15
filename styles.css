@@ -23,7 +23,10 @@ body {
     background-size: cover;
     background-position: center center;
     text-align: center; /* Phillip moved text-align CSS code to the body to apply for all text */
+<<<<<<< HEAD
     font-family: Verdana, Tahoma, sans-serif; /* David: applied font to all text */
+=======
+>>>>>>> c84efe5529e51b44de47dd8068f7e5332f3e7aa4
   }
   .one {
     border-style: solid;
@@ -47,6 +50,10 @@ body {
     border-radius: 15px;
     width: 55%;
     color: white;
+<<<<<<< HEAD
+=======
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> c84efe5529e51b44de47dd8068f7e5332f3e7aa4
   }
   .center {
     margin-left: auto; /* Phillip added a class for his table to center it when it wasn't centered along with his page originally */
@@ -66,6 +73,10 @@ body {
   }
   .categories { /* Jason Estrada .categories comes from class="categories", font is changed to Arial */
     /* David: also took class and applied it to some of my HTML */
+<<<<<<< HEAD
+=======
+    font-family: Arial;
+>>>>>>> c84efe5529e51b44de47dd8068f7e5332f3e7aa4
     font-size: larger;
     margin-left: auto;
     margin-right: auto;
@@ -73,17 +84,29 @@ body {
     text-align: center;
   }
   .Subject { /* Jason Estrada .subject is connected with class="Subject", font is changed to Arial, color changed */
+<<<<<<< HEAD
+=======
+    font-family: Arial;
+>>>>>>> c84efe5529e51b44de47dd8068f7e5332f3e7aa4
     margin: auto;
     color: rgb(185, 40, 185);
   }
   .whitetext { /* Jason Estrada This CSS is connected with the white text in Jason Estrada box */
     color: white;
+<<<<<<< HEAD
+=======
+    font-family: Arial;
+>>>>>>> c84efe5529e51b44de47dd8068f7e5332f3e7aa4
     font-style: normal;
     font-size: large;
   }
   .headlines { /* Jason Estrada CSS class="headlines" connected with the lines that in between the tables and first image */ 
     color: rgb(0, 225, 255);
     font-size: x-large;
+<<<<<<< HEAD
+=======
+    font-family: Arial;
+>>>>>>> c84efe5529e51b44de47dd8068f7e5332f3e7aa4
   }
   #Topic { /* Jason Estrada word "Subject" color*/
     color: rgb(38, 219, 219);
@@ -103,9 +126,13 @@ body {
     /* Hiroki: stylized each of my tables */
     display: block;
     margin-left: auto;
+<<<<<<< HEAD
     margin-right: auto;
     border:1;
     box-align:center; 
+=======
+    margin-right: auto; 
+>>>>>>> c84efe5529e51b44de47dd8068f7e5332f3e7aa4
   }
   .tableh { 
     display: block;
@@ -121,9 +148,17 @@ body {
     padding: 20px;
     border: 3px solid black;
     /* David: added background color to webpage and added translucency to make text more visible */
+<<<<<<< HEAD
     background-color: rgba(203, 169, 243, 0.856);
     border-radius: 15px;
     width: 55%;
+=======
+    background-color: rgba(196, 146, 230);
+    border-radius: 15px;
+    width: 55%;
+    /* David: stylized font for more personality in words */
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> c84efe5529e51b44de47dd8068f7e5332f3e7aa4
   }
   .imgedit {/* Phillip manipulated the images to be interactive when hovered over */
   /* David: made sure images are spaced out evenly in one row in one box */
@@ -133,4 +168,12 @@ body {
   .imgedit:hover {
     opacity: 1.0;
     filter: alpha(opacity=100);
+<<<<<<< HEAD
+=======
+  }
+  .davtable {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid grey;
+>>>>>>> c84efe5529e51b44de47dd8068f7e5332f3e7aa4
   }
