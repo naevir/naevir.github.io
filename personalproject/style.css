@@ -24,16 +24,15 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  header img{
-    height: auto; 
-    width: auto; 
-    max-width: 100%; 
-    max-height: 30%;
+  header img {
+    width:100%;
+    height:auto;
   }
 
   footer {
       background-color: white;
       font-family: 'Heebo', sans-serif;
+      text-align: center;
       padding: 10px;
   }
   
