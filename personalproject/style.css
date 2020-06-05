@@ -1,38 +1,126 @@
 body {
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(231, 231, 231);
     font-family: 'Heebo', sans-serif;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    height: auto;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  header img {
-    width:100%;
-    height:auto;
-  }
+.nav {
+  overflow: hidden;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
 
-  footer {
-      background-color: white;
-      font-family: 'Heebo', sans-serif;
-      text-align: center;
-      padding: 10px;
-  }
+.nav a {
+  float: left;
+  display: block;
+  color: #3d3d5c;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 25px;
+}
+
+.nav a:hover {
+  background-color: whitesmoke;
+  color: #666699;
+}
+
+header img {
+  width:100%;
+  height:auto;
+}
+
+.container {
+  background-color: white;
+  padding: 15em;
+  margin-top: 20px;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  width: 20%;
+  height: auto;
+  margin: 1em;
+  text-align: center;
+}
+
+.container p, h2 {
+  text-align: left;
+  margin-top: 2em;
+}
+
+div.gallery {
+  margin: 5px;
+  margin-top: 15em;
+  opacity: 0.6;
+  float: left;
+  width: 25%;
+}
+
+div.gallery:hover {
+  opacity: 1;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Blog Portion */
+
+.leftcolumn {   
+  float: left;
+  width: 100%;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Blog Portion End */
+
+/* Mood Board Portion */
+
+.tempimg1 {
+  float: left;
+  background-color: rgb(71, 71, 71);
+  width: 20%;
+  padding: 20px;
+}
+
+.tempimg2 {
+  float: right;
+  background-color: rgb(71, 71, 71);
+  margin-top: 5em;
+  width: 20%;
+  padding: 20px;
+}
+
+.footer p {
+    background-color: rgb(68, 68, 68);
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    padding: 2.5em;
+}
   
