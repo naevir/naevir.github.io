@@ -5,6 +5,31 @@ body {
     margin-right: auto;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+  background: rgba(175, 216, 255, 0.4);
+  box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+}
+
+/* Idle Window */
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(119, 119, 119, 0.4); 
+}
+
+/* Navigation Bar */
 .nav {
   overflow: hidden;
   background-color: white;
@@ -33,48 +58,85 @@ header img {
   height:auto;
 }
 
-.container {
+/* Homepage Section */
+.index-container {
+  float: center;
+  text-align: center;
   background-color: white;
-  padding: 15em;
+  margin: 20px;
+  padding-top: 5em;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-bottom: 5em;
   content: "";
   clear: both;
   display: table;
 }
 
-.container img {
-  float: left;
-  width: 20%;
-  height: auto;
-  margin: 1em;
+.index-container img {
+  width: 30%;
   text-align: center;
 }
 
-.container p, h2 {
-  text-align: left;
+.index-container h1 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.index-container p {
+  text-align: center;
   margin-top: 2em;
+  margin-left: 4em;
+  margin-right: 4em;
 }
 
-div.gallery {
+/* Homepage Image Gallery */
+.gallery {
   margin: 5px;
-  margin-top: 15em;
-  opacity: 0.6;
+  margin-top: 3em;
+  opacity: 0.8;
   float: left;
-  width: 25%;
+  width: 32.33%;
 }
 
-div.gallery:hover {
+.gallery:hover {
   opacity: 1;
 }
 
-div.gallery img {
+.gallery img {
   width: 100%;
   height: auto;
   content: "";
   clear: both;
   display: table;
 }
+/* Homepage Section End */
 
-/* Blog Portion */
+/* Blog Section */
+.blog-container {
+  float: center;
+  background-color: white;
+  padding: 10em;
+  margin: 20px;
+  padding-top: 5em;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-bottom: 5em;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.blog-container img {
+  width: 40%;
+  height: auto;
+  margin: 1em;
+}
+
+.blog-container p, h2 {
+  text-align: left;
+  margin-top: 2em;
+}
 
 .leftcolumn {   
   float: left;
@@ -92,25 +154,30 @@ div.gallery img {
   display: table;
   clear: both;
 }
+/* Blog Section End */
 
-/* Blog Portion End */
-
-/* Mood Board Portion */
+/* Mood Board Section */
+.moodboard {
+  background-color: white;
+  padding: 15em;
+  margin: 20px;
+  content: "";
+  clear: both;
+  display: table;
+}
 
 .tempimg1 {
   float: left;
   background-color: rgb(71, 71, 71);
-  width: 20%;
-  padding: 20px;
+  width: 10%;
 }
 
 .tempimg2 {
   float: right;
   background-color: rgb(71, 71, 71);
-  margin-top: 5em;
-  width: 20%;
-  padding: 20px;
+  width: 100%;
 }
+/* Mood Board Section End */
 
 .footer p {
     background-color: rgb(68, 68, 68);
