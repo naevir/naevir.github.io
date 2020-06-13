@@ -4,7 +4,7 @@ body {
     margin: auto;
     width: 100%;
 }
-
+/* Custom Scrollbar similar to IOS */
 ::-webkit-scrollbar {
   width: 12px;
 }

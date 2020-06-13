@@ -10,7 +10,7 @@
   var i = 0;
   var txt = "Hi there, I'm Phillip!";
   var speed = 100;
-  
+  // added JavaScript for animated typing text 
   function typeWriter() {
     if (i < txt.length) {
       document.getElementById("nameIntro").innerHTML += txt.charAt(i);
@@ -23,22 +23,22 @@
 <body onload="typeWriter()">
 
 <div class="nav">
-    <img src="nav/logo.png" style="width: 150px; height: auto; float: right; padding-right: 23px;">
+    <img src="nav/logo.png" style="width: 150px; height: auto; float: right; padding-right: 23px;"> <!-- Logo on the Navigation for a more polished look -->
     <a href="index.html">HOME</a>
     <a href="blog.html">BLOG</a>
     <a href="moodboard.html">MOOD BOARD</a>
 </div>
 
 <header>
-    <img src="banner.png">
+    <img src="banner.png"> <!-- Custom made banner from Photoshop -->
 </header>
 
 <div class="index-container">
-    <h1 id = "nameIntro"></h1>
+    <h1 id = "nameIntro"></h1> <!-- Created an ID for JavaScript \-->
     <img src="index/itsme.png">
     <p style="font-size: 20px; line-height: 2;">Welcome to the blog that showcases my inspirations. That's right, you've arrived at my very own personal blog. I created this website to soothe my soul whenever I feel down and need motivation. It is also an outlet for me to get my creative juices flowing! My blog will feature plenty of photographs of fashion, music, and video games! Thanks for coming by!</p>
 
-      <div class="gallery">
+      <div class="gallery"> <!-- Interactive Images that you can hover over -->
           <img src="index/outfit.jpg" alt="Chill Outfit" width="800" height="600">
         </a>
       </div>
